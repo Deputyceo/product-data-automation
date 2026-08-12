@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Application-generated data
+output/
+logs/
+*.log
+
+# Local/company data
+data/*.xlsx
+data/*.xls
+data/*.csv
+data/*.json
+samples/
+*.zip
+
+# Local configuration / secrets
+.env
+.env.*
